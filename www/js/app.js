@@ -11,6 +11,7 @@ Androidの画像表示とmobile backendのファイルストアへの画像投�
     var clikey="niftyClikey";
     var ncmb = new NCMB(appkey,clikey);
     //Android5.0以上推奨
+
 	  var appState = {
 	    takingPicture: true,
 	    imageUri: ""
