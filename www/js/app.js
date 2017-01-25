@@ -63,7 +63,7 @@ Androidの画像表示とmobile backendのファイルストアへの画像投�
 			            var blob = new Blob([evt.target.result], {type: "image/jpg"});
 			            //blob後のファイルサイズ
 			            console.log("file size:" + blob.size);
-			            //uploadは保存ファイル名,mimetype
+			            //uploadは保存ファイル名,image
 			            ncmb.File.upload(filename, blob).then(function(res){
 			              console.log("success upload!");
 			              alert("success upload!");
