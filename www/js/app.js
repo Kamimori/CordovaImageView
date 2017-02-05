@@ -6,6 +6,7 @@ OSSフレームワークのCordovaを使用
 Androidの画像表示とmobile backendのファイルストアへの画像投稿
 **/
 
+
 		ons.bootstrap();
   	var appkey="niftyAPI";
     var clikey="niftyClikey";
